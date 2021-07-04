@@ -26,14 +26,15 @@ body{
 
 .showoff-text{
     width: 40%;
-    margin-left: 8%;
+    margin-left: 5%;
     margin-right: 5%;
     margin-top: 70px;
 }
 
 .showoff-image{
     width: 40%;
-    margin-right: 8%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 h1{
@@ -55,3 +56,64 @@ p{
     margin-top: 50px;
 }
 
+.showoff-1{
+    display: flex;
+    margin-top: 150px;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.experience-box{
+    display: flex;
+    margin-top: 50px;
+}
+
+.experience-left
+{
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 7px solid;
+    border-image: linear-gradient(
+    180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px grey;
+    height: 80%;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.experience-right{
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 7px solid;
+    border-image: linear-gradient(
+    180deg, blue, cyan);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px grey;
+    height: 80%;
+    padding: 15px;
+    border-radius: 15px;
+    padding-bottom: 40px;
+}
+
+.experience h2{
+    font-size: 40px;
+}
+
+.experience-box h3
+{
+    color: orange;
+    margin-top: 25px;
+}
+
+footer p{
+    text-align: center;
+}
